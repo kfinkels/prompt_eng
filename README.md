@@ -4,20 +4,11 @@ Prompt Engineering workshop for Developers
 
 ## Getting started
 
-### Install and run ollama with llama3 model
+### Get Gemini API key
 
-Follow instruction in: https://github.com/ollama/ollama
+Follow instruction in [Gemini API documentation](https://ai.google.dev/gemini-api/docs?_gl=1*1ytqwq6*_ga*MzA3NjM0Nzk2LjE3MzMwNTYzMTM.*_ga_P1DBVKWT6V*MTczMzA1NjMxMy4xLjEuMTczMzA1NjQ3Mi42MC4wLjExMjAxMTcwOTk) to get your API key.
 
-Run ollama with llama3:
-
-`ollama run llama3`
-
-Validate the prompt:
-
-```
->>> how much is 1+1
-The answer to 1+1 is... (drumroll please)... 2!
-```
+Save the key for future use
 
 
 ### Create Python environment and install jupyter
@@ -30,7 +21,7 @@ The answer to 1+1 is... (drumroll please)... 2!
 
    `source venv\bin\activate`
 
-* Install jupyter-lab and ollama python library:
+* Install jupyter-lab:
 
    `pip install jupyterlab`
 
