@@ -11,7 +11,10 @@ Follow instruction in [Gemini API documentation](https://ai.google.dev/gemini-ap
 Save the key for future use
 
 
-### Create Python environment and install jupyter
+### Run locally
+
+#### Clone the repository
+#### Create Python environment and install jupyter
 
 * Create virtual env:
 
@@ -28,3 +31,12 @@ Save the key for future use
 * Run jupyter:
 
    `jupyter lab`
+
+### Run in Github
+
+* Open with Code --> Codespaces
+
+* Install jupyter-lab on the terminal:
+
+  `pip install jupyterlab`
+
